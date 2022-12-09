@@ -49,11 +49,7 @@
 }
 
 .mi-img{
-    object-fit: contain;
-    width: 100%;
-    max-width: 300px;
     padding: 1.25rem;
-    height: 100%;
     max-height: 250px;
 }
 
@@ -94,7 +90,67 @@
   
 .card button:hover {
     opacity: 0.7;
+    background-color: #00ffff;
 }
+
+/* modal */
+
+.modalCont{
+    display: none;
+}
+
+.body{
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+    margin-left: 15px;
+}
+
+.botonAbrirModal{
+    background-color: #000000;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(7, 245, 205);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    font-family: "poppins", sans-serif;
+    font-weight: bolder;
+}
+
+.modalCont{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: #ffa500;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(7, 245, 205);
+    text-align: center;
+}
+.botonCerrarModal{
+    background-color: #000000;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(7, 245, 205);
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    font-family: "poppins", sans-serif;
+    font-weight: bolder;
+}
+
+/* footer */
 
 #mi-footer{
     background-color: #00ffff;

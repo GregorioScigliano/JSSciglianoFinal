@@ -2,6 +2,8 @@ const cardProducto = document.querySelector('.mi-fila');
 const tituloPagina = document.querySelector('#mi-header');
 const footerPagina = document.querySelector('#mi-footer');
 
+
+
 const titulo = document.createElement('div')
 titulo.innerHTML =`
 <h1 class="tituloPagina">Musica indie</h1>
@@ -27,9 +29,12 @@ fetch("./productos.json")
         
             columna.append(card)
             cardProducto.append(columna)
+
+            
+            
         });
     })
-
+    
 const footer = document.createElement('ul')
 footer.classList = 'listaFooter'
 footer.innerHTML =`
