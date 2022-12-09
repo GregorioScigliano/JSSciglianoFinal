@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Poppins:ital,wght@0,200;0,400;1,200&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#mi-header{
+  background-color: #E63B2E;
+}
+
+.tituloPagina{
+    font-family: "Bungee Shade", cursive;
+    font-weight: bolder;
+    font-size: 3.438rem;
+    color: #000000;
+    padding: 0.938rem;
+    text-align: center;
+    text-decoration: none;
+    animation-name: titulo-pagina;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+#mi-main{
+    background-color: #000000;
+    background-image: linear-gradient(#000000, #ffa500, #00ffff, #000000);
+    padding: 1.25rem;
+}
+
+.mi-fila{
+    margin: 0 -5px;
+    padding: 15px;
+}
+
+.mi-fila::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columna{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.mi-img{
+    object-fit: contain;
+    width: 100%;
+    max-width: 300px;
+    padding: 1.25rem;
+    height: 100%;
+    max-height: 250px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: black;
+    height: 345px;
+    width: 350px;
+}
+
+.nombreProducto{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+}
+
+.precioProducto{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+}
+
+.card button {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    border: none;
+    outline: 0;
+    padding: 6px;
+    color: black;
+    font-weight: bolder;
+    background-color: #E63B2E;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.card button:hover {
+    opacity: 0.7;
+}
+
+#mi-footer{
+    background-color: #00ffff;
+}
+
+.listaFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0.625rem;
+}
+
+.mi-footerImg{
+    width: 3.1rem;
+    height: 3.1rem;
+}
+
+@keyframes titulo-pagina {
+    0% {
+      color: black; }
+    40% {
+      color: #ffa500; }
+    80% {
+      color: #00ffff; }
+    100% {
+      color: black; } 
+}
+
+@media (min-width: 760px){
+    .tituloPagina{
+        font-family: "Bungee Shade", cursive;
+        font-weight: bolder;
+        font-size: 5rem;
+        color: #000000;
+        padding: 0.938rem;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+

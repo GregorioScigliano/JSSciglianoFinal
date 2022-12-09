@@ -1,0 +1,14 @@
+[
+    { "id": 1, "stock": 10, "nombre": "Cuadro Pink Floyd"," tipo": "Cuadro", "precio": "2500", "img": "../imagenes-comprimidas/Productos/cuadro1.jpg", "alt": "img"},
+    { "id": 2, "stock": 0, "nombre": "Cuadro Kiss", "tipo": "Cuadro", "precio": "2000", "img": "../imagenes-comprimidas/Productos/cuadro1musica.jpg", "alt": "img"},
+    { "id": 3, "stock": 5, "nombre": "Cuadro Charly", "tipo": "Cuadro", "precio": "3800", "img": "../imagenes-comprimidas/Productos/cuadro3usica.jpg", "alt": "img"},
+    { "id": 4, "stock": 5, "nombre": "Disco Green Day", "tipo": "Disco", "precio": "1500", "img": "../imagenes-comprimidas/Productos/disco1musica.jpg", "alt": "img"},
+    { "id": 5, "stock": 3, "nombre": "Disco Nirvana", "tipo": "Disco", "precio": "2000", "img": "../imagenes-comprimidas/Productos/disco2musica.jpg", "alt": "img"},
+    { "id": 6, "stock": 5, "nombre": "Disco Pink Floyd", "tipo": "Disco", "precio": "2200", "img": "../imagenes-comprimidas/Productos/disco3musica.jpg", "alt": "img"},
+    { "id": 7, "stock": 8, "nombre": "Gorra Nota", "tipo": "Gorra", "precio": "2000", "img": "../imagenes-comprimidas/Productos/gorra2musica.jpg", "alt": "img"},
+    { "id": 8, "stock": 0, "nombre": "Gorra Guitarra", "tipo": "Gorra", "precio": "1500", "img": "../imagenes-comprimidas/Productos/gorra3musica.jpg", "alt": "img"},
+    { "id": 9, "stock": 2, "nombre": "Gorra Gorillaz", "tipo": "Gorra", "precio": "2500", "img": "../imagenes-comprimidas/Productos/gorramusica.jpg", "alt": "img"},
+    { "id": 10,"stock": 2, "nombre": "Remera Nirvana", "tipo": "Remera", "precio": "5500", "img": "../imagenes-comprimidas/Productos/remera2musica.jpg", "alt": "img"},
+    { "id": 11,"stock": 5, "nombre": "Remera Coldplay", "tipo": "Remera", "precio": "6000", "img": "../imagenes-comprimidas/Productos/remera3musica.jpg", "alt": "img"},
+    { "id": 12,"stock": 1, "nombre": "Remera Skull", "tipo": "Remera", "precio": "4700", "img": "../imagenes-comprimidas/Productos/remera4musica.jpg", "alt": "img"}
+]

@@ -1,0 +1,7 @@
+agregar modal
+sweet alert + librerias
+hacer el boton con el eventlistener
+ver lo de las cookies
+
+mirar el trabajo con el F L 
+
